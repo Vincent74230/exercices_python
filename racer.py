@@ -20,6 +20,12 @@ class Track:
             (self.parts).append(TrackPart())
             i +=1
 
-x = Track()
+class Pilot:
+    def __init__(self,pilot):
+        self.pilot = pilot
+        self.normal_speed = random()+0.5
+        self.rapid_speed = random()+0.5
+        self.subtle_speed = random()+0.5
 
-print(x.parts[2])
+chauffeur = Pilot("Vincent")
+print(chauffeur.normal_speed)
