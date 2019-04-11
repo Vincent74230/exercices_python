@@ -6,5 +6,12 @@ COMPLEXITIES = ["normal", "rapid", "subtle"]
 
 class TrackPart:
     def __init__(self):
-        self.length = randchoice(0,10)
-        self.terrain = rand
+        self.length = randint (0,10)
+        self.terrain = TERRAINS[randint(0,3)]
+        self.complexity = COMPLEXITIES[randint(0,2)]
+
+
+track = TrackPart()
+
+
+
