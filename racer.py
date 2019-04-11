@@ -21,11 +21,19 @@ class Track:
             i +=1
 
 class Pilot:
+    compteur = 0
     def __init__(self,pilot):
         self.pilot = pilot
         self.normal_speed = random()+0.5
         self.rapid_speed = random()+0.5
         self.subtle_speed = random()+0.5
+        Pilot.compteur += 1
 
-chauffeur = Pilot("Vincent")
-print(chauffeur.normal_speed)
+class Car:
+    def __init__(self):
+        self.name = randint(1,20)
+        self.pilot = pilot
+        self.asphalt_speed = random()+0.5
+        self.sand_speed = random()+0.5
+        self.mud_speed = random()+0.5
+        self.rocky_speed = random()+0.5
