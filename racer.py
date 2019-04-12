@@ -12,14 +12,19 @@ class TrackPart:
         self.complexity = COMPLEXITIES[randint(0,2)]
     def __str__(self):
         return "{} {} {}".format(self.length,self.terrain,self.complexity)
-
+  
+    
 class Track:
     def __init__(self):
         self.parts = []
-        i=1
-        while i<20 :
-            (self.parts).append(TrackPart())
+        i=0
+        while i<20:
+            track = TrackPart()
+            liste_temporaire = [track.length,track.terrain,track.complexity]
+            (self.parts).append(liste_temporaire)
             i +=1
+
+
 
 class Pilot:
     compteur = 0
@@ -38,11 +43,9 @@ class Car:
         self.sand_speed = random()+0.5
         self.mud_speed = random()+0.5
         self.rocky_speed = random()+0.5
+  
 
-track = TrackPart()
-#track=str(track)
-liste = track.split(" ")
-print(liste)
-a = liste[0]
-a=int(a)
-print(a)
+
+
+track = Track()
+print (track.parts)
