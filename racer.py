@@ -42,23 +42,25 @@ class Car:
         self.rocky_speed = random()+0.5
     def __str__(self):
         return "car {} avec pilot {}".format(self.name,self.pilot.name)
-    #def time_for_part(self,trackPart):
+    def time_for_part(self,trackPart):
         
 
 track = Track()
+print("Voici le circuit :")
 i=0
 while i<20:
     print (track[i])
     i +=1
 
-combo_car_pilot = []
+combo_car_pilot = [] #generation d'une liste de 5 voitures avec pilote
 i = 0
 while i<5:
     nom_du_pilote = PILOT[i]
     nom_du_pilote = Car()
     combo_car_pilot.append(nom_du_pilote)
     i += 1
-i=0
+print ("Voici les voitures avec leur pilote:")
+i=0 #affichage combo car/pilote
 while i<5:
     print (combo_car_pilot[i])
     i +=1
