@@ -14,3 +14,6 @@ LA SUITE DE FIBONACCI
 UN PROGRAMME DE TRI (exo du cours)
 
 UN PROGRAMME DE CONVERSION DES NOMBRES FLOAT (exo du cours)
+
+JEU RACER : Un exercice portant sur l'usage des classes, l'énoncé se trouve dans un fichier texte
+"enoncé racer"
