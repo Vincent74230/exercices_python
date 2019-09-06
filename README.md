@@ -5,15 +5,17 @@ Repository regroupant les exos et TP du cours "Apprenez à programmer en Python"
 
 LE JEU DU PLUS OU MOINS
 
-LE JEU DU PENDU (tp du cours)
+LE JEU DU PENDU
 
-LE JEU DU CASINO (tp du cours)
+LE JEU DU CASINO
 
 LA SUITE DE FIBONACCI
 
-UN PROGRAMME DE TRI (exo du cours)
+UN PROGRAMME DE TRI
 
-UN PROGRAMME DE CONVERSION DES NOMBRES FLOAT (exo du cours)
+UN PROGRAMME DE CONVERSION DES NOMBRES FLOAT
 
 JEU RACER : Un exercice portant sur l'usage des classes, l'énoncé se trouve dans un fichier texte
 "enoncé racer"
+
+A home-made Tetris (work in progress)
