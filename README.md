@@ -1,21 +1,20 @@
 # exercices_python
-Repository regroupant les exos et TP du cours "Apprenez à programmer en Python"
 
-/////////////////////         CE REPOSITORY CONTIENT :  ////////////////////////
+/////////////////////         CONTAINS :  ////////////////////////
 
-LE JEU DU PLUS OU MOINS
+MORE OR LESS GAME
 
-LE JEU DU PENDU
+HANGMAN GAME
 
-LE JEU DU CASINO
+CASINO
 
-LA SUITE DE FIBONACCI
+FIBONACCI
 
-UN PROGRAMME DE TRI
+SORTING PROGRAMM
 
-UN PROGRAMME DE CONVERSION DES NOMBRES FLOAT
+FLOAT CONVERSION
 
-JEU RACER : Un exercice portant sur l'usage des classes, l'énoncé se trouve dans un fichier texte
+RACER GAME : An exercise on the use of classes, statement on the file :
 "enoncé racer"
 
-A home-made Tetris (work in progress)
+A HOME-MADE TETRIS (work in progress)

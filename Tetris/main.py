@@ -1,21 +1,22 @@
 import pygame
-from pathlib import Path
+import settings as se
+import shapes
 
 pygame.init()
-SCREEN_SIZE = (500,1000)
-screen = pygame.display.set_mode(SCREEN_SIZE)
 
-SPRITE_SIZE = 100
-BASE_DIR = Path(__file__).resolve().parent
-cube = str(BASE_DIR / 'cube.png')
-imgcube = pygame.image.load(cube).convert_alpha()
+screen = pygame.display.set_mode(se.SCREEN_SIZE)
+
+shape = shapes.shapes()
 
 launched = True
 while launched:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             launched = False
-    screen.blit(imgcube, (0, 0))
+        #if event.type == pygame.KEYDOWN:
+            #if event.type == pygame.K_UP:
+
+    shape.display_shape(screen)
     pygame.display.update()
 
 pygame.quit()
